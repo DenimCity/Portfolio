@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Project from '../components/Project'
 import styled from 'styled-components'
+import {TitleContainer} from '../styled_components/basicstyles'
 
 export default class ProjectList extends Component {
   render() {
@@ -20,7 +21,7 @@ export default class ProjectList extends Component {
     return (
       <div>
         <TitleContainer>
-          <Title>Recent Projects</Title>
+          <h2>Recent Projects</h2>
         </TitleContainer>
         <Grid>
           {projectList}
@@ -39,14 +40,5 @@ justify-content:center;
   grid-template-columns:auto;
   }
 `
-const TitleContainer = styled.div `
-background-color:black;
-width:100%;
-`
 
-const Title = styled.h2 `
-text-align:center;
-font-family:;
-color:white;
-`
 

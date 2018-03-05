@@ -59,7 +59,7 @@ display: flex;
 align-items: center;
 font-size:2rem;
 @media (max-width: 669px) {
-  font-size:15px;
+  font-size:25px;
   }
 `
 

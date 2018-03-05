@@ -4,6 +4,8 @@ import Splash from './components/Splash'
 import About from './components/About'
 import ProjectList from './components/ProjectList'
 import Skills from './components/Skills'
+import SideProject from './components/SideProject'
+import Contact from './components/Contact'
 import projectData from './projectData'
 
 export default class App extends Component {
@@ -15,6 +17,8 @@ export default class App extends Component {
         <About/>
         <ProjectList projects={projectData}/>
         <Skills/>
+        <SideProject/>
+        <Contact/>
       </div>
     )
   }

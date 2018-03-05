@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
+import {TitleContainer} from '../styled_components/basicstyles'
 export default class Skills extends Component {
   render() {
     return (
       <div>
         <TitleContainer>
-        <Title>Experience</Title>
+        <h2>Experience</h2>
 
         </TitleContainer>
       <Container>
@@ -17,6 +18,7 @@ export default class Skills extends Component {
         <img src="http://kosmiktechnologies.com/wp-content/uploads/2016/02/sql.png" alt=""/>
         <img src="http://www.sanjaywebdesigner.com/articles/wp-content/uploads/2014/09/HTML5-courses.png" alt=""/>
         <img src="http://www.acadecap.org/wp-content/uploads/2016/07/Javascript.png" alt=""/>
+        <img src="https://www.aistechnolabs.com/wp-content/uploads/2016/07/ruby-on-rails-development-e1480579728677.png" alt=""/>
       </Container>
       </div>
     )
@@ -28,22 +30,15 @@ display:grid;
 grid-template-columns: auto auto auto;
 
 img {
-  width:200px;
+  width:180px;
   @media (max-width: 669px) {
-  width:100%;
+  width:110px;
   }
 }
 @media (max-width: 669px) {
   grid-template-columns:auto auto;
+  justify-content:center;
+grid-gap: 1rem;
   }
 `
-const TitleContainer = styled.div`
-background-color:black;
-width:100%;
-`
-const Title = styled.h2`
-font-size:2rem;
-text-align:center;
-color:white;
 
-`
