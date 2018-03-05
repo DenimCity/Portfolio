@@ -19,8 +19,9 @@ export default class ProjectList extends Component {
       })
     return (
       <div>
-        <Title>PROJECTS</Title>
-
+        <TitleContainer>
+          <Title>Recent Projects</Title>
+        </TitleContainer>
         <Grid>
           {projectList}
         </Grid>
@@ -38,9 +39,14 @@ justify-content:center;
   grid-template-columns:auto;
   }
 `
+const TitleContainer = styled.div `
+background-color:black;
+width:100%;
+`
 
 const Title = styled.h2 `
 text-align:center;
-font-family:san serif;
-
+font-family:;
+color:white;
 `
+
