@@ -31,6 +31,9 @@ max-width:150px;
 img {
   width:100%;
   height:100%;
+  @media (max-width: 669px) {
+  width:200px;
+  }
 }
 `
 const DescriptionContainer = styled.div `
@@ -38,7 +41,9 @@ display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
-
+@media (max-width: 669px) {
+  display:none;
+  }
 a {
   color:goldenrod;
   text-decoration:none;
