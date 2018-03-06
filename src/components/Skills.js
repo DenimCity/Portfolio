@@ -32,7 +32,7 @@ grid-template-columns: auto auto auto;
 img {
   width:180px;
   @media (max-width: 669px) {
-  width:110px;
+  width:100px;
   }
 }
 @media (max-width: 669px) {
