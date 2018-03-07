@@ -28,7 +28,7 @@ export default class Skills extends Component {
 const Container = styled.div `
 display:grid;
 grid-template-columns: auto auto auto;
-
+justify-content: center;
 img {
   width:180px;
   @media (max-width: 669px) {
@@ -36,9 +36,9 @@ img {
   }
 }
 @media (max-width: 669px) {
-  grid-template-columns:auto auto;
-  justify-content:center;
-grid-gap: 1rem;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  grid-gap: 2rem;
   }
 `
 

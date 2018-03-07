@@ -6,8 +6,9 @@ import ProjectList from './components/ProjectList'
 import Skills from './components/Skills'
 import SideProject from './components/SideProject'
 import Contact from './components/Contact'
-import projectData from './projectData'
 
+import projectData from './projectData'
+import sideProjectData from './sideProjectData'
 export default class App extends Component {
   render() {
     return (
@@ -17,7 +18,7 @@ export default class App extends Component {
         <About/>
         <ProjectList projects={projectData}/>
         <Skills/>
-        <SideProject/>
+        <SideProject sideProjects={sideProjectData}/>
         <Contact/>
       </div>
     )

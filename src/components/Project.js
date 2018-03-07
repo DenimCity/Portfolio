@@ -10,12 +10,12 @@ export default class Project extends Component {
           <img src={project.photo} alt=""/>
         </PhotoContainer>
         <DescriptionContainer>
-          <div>Project: {project.name}</div>
+          <div>{project.name}</div>
           <hr/>
           <h4>Dependencies Used</h4>
           <div>{project.description}</div>
-          <a href={project.version1}target="blank">View App</a>
-          <a href={project.github}target="blank">Code Sample</a>
+          <a href={project.link} target="blank">View App</a>
+          <a href={project.github} target="blank">Code Snippet</a>
         </DescriptionContainer>
       </ProjectContainer>
     )
@@ -23,7 +23,8 @@ export default class Project extends Component {
 }
 
 const ProjectContainer = styled.div `
-display:flex;
+display:grid;
+grid-template-columns:auto auto;
 
 `
 const PhotoContainer = styled.div `
@@ -42,10 +43,10 @@ flex-direction:column;
 justify-content:center;
 align-items:center;
 @media (max-width: 669px) {
-  display:none;
+  
   }
 a {
-  color:goldenrod;
+  color:blue;
   text-decoration:none;
 }
 

@@ -42,6 +42,7 @@ justify-content:center;
 
 const Motto = styled.p `
 justify-content:center;
+font-size:1.4rem;
 font-family: 'Rouge Script', cursive;
 span {
   color:goldenrod;
@@ -57,9 +58,9 @@ font-family: 'Bilbo Swash Caps', cursive;
 text-align: center; 
 display: flex;
 align-items: center;
-font-size:2rem;
+font-size:2.2rem;
 @media (max-width: 669px) {
-  font-size:25px;
+  font-size: 22px;
   }
 `
 

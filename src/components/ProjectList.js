@@ -15,8 +15,8 @@ export default class ProjectList extends Component {
           description={project.description}
           purpose={project.purpose}
           github={project.github}
-          photo={project.picture}
-          deploy={project.version1}/>)
+          photo={project.photo}
+          link={project.link}/>)
       })
     return (
       <div>
@@ -32,12 +32,13 @@ export default class ProjectList extends Component {
 }
 
 const Grid = styled.div `
-
 display:grid;
 grid-template-columns:50% 50%;
 justify-content:center;
 @media (max-width: 669px) {
-  grid-template-columns:auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
   }
 `
 
