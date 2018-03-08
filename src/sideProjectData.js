@@ -1,11 +1,10 @@
 export default [
   {
-    name:"",
+    name:"Drum Kit",
     description:"30 Day Vanilla JS Coding Challenge",
     author:"Wes Bos",
-    github:"",
-    picture:"",
-    link:""
+    picture:"https://i.imgur.com/BuJYV3x.png",
+    link:"http://peaceful-darwin-906e49.bitballoon.com/"
   },
   {
     name:"JS & CSS Clock",
