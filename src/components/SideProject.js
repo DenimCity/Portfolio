@@ -62,8 +62,8 @@ a {
     font-size: 2vw;
     cursor: pointer;
     &:hover{
-opacity:0.5;
-color:black;
+      opacity:0.5;
+      color:black;
 
     }
   }

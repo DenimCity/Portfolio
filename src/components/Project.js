@@ -39,7 +39,8 @@ img {
   width:100%;
   height:100%;
   @media (max-width: 669px) {
-  width:200px;
+    width: 50vw;
+    height: 39vh;
   }
 }
 `
