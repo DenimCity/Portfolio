@@ -1,6 +1,5 @@
 export default [
 
-  {photo:"http://www.nanoarchsoftware.com/assets/img/software-development.png"},
   {photo:"https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/nodejs-frameworks.png"},
   {photo:"https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/359/landscape/expressjslogo.png"},
   {photo:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" },

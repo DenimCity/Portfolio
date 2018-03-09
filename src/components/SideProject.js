@@ -34,7 +34,7 @@ padding: 3vh 2vh;
 `
 
 const ImageContainer = styled.div `
-
+margin:auto;
 img {
   width:400px;
   border-radius:20px;
@@ -47,6 +47,8 @@ width:300px;
 
 const DescriptionContainer = styled.div`
 text-align:center;
-
+h1{
+  text-decoration: underline;
+}
 
 `

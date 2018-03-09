@@ -26,9 +26,6 @@ export default class Skills extends Component {
   }
 }
 
-
-
-
 const ImageContainer = styled.div`
 max-width:150px;
 @media (max-width: 669px) {
@@ -45,20 +42,5 @@ display:flex;
 flex-wrap:wrap;
 justify-content:center;
 `
-// const Container = styled.div `
-// display:grid;
-// grid-template-columns:auto auto auto;
-// justify-content: space-evenly;
-// img {
-//   width:200px;
-//   @media (max-width: 669px) {
-//   width:100px;
-//   }
-// }
-// @media (max-width: 669px) {
-//   grid-template-columns: auto auto auto;
-//   justify-content: center;
-//   grid-gap: 2rem;
-//   }
-// `
+
 
