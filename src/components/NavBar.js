@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export default class NavBar extends Component {
   render() {
     return (
-      <Wrapper>
+      <Wrapper id="top">
       <a href="#aboutme">About Me</a>
       <a href="#projects">Projects</a>
       <a href="#experience">Languages</a>
