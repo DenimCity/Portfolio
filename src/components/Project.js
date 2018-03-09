@@ -11,7 +11,7 @@ export default class Project extends Component {
         </PhotoContainer>
         <DescriptionContainer>
           <h2>{project.name}</h2>
-          <hr/>
+        
           <h3>Tech Stack</h3>
           <div>{project.description}</div>
           <br/>
@@ -45,10 +45,10 @@ img {
 }
 `
 const DescriptionContainer = styled.div `
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 @media (max-width: 669px) {
 
   }
