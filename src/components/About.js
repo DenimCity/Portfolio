@@ -15,7 +15,7 @@ export default class About extends Component {
         <Wrapper>
           <AboutMe>
             Greetings, I'm health professional that has transitioned into a software
-            development. I'm a South Floridian living in the beautiful Atlanta, Georgia. My
+            developer. I'm a South Floridian living in the beautiful Atlanta, Georgia. My
             hobbies are photography, blogging, outdoor sport activites, and traveling.
           </AboutMe>
         </Wrapper>

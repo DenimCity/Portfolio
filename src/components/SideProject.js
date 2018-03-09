@@ -5,6 +5,7 @@ export default class SideProject extends Component {
     const project = this.props
     return (
       <Container>
+        <br/>
         <ImageContainer>
           <img width="400" src={project.photo} alt=""/>
         </ImageContainer>
@@ -15,6 +16,7 @@ export default class SideProject extends Component {
           <h3>By: {project.author}</h3>
           <a href={project.link} target="blank">
           <button>Let's Play</button>
+          <br/>
           </a>
         </DescriptionContainer>
       </Container>
@@ -49,6 +51,22 @@ const DescriptionContainer = styled.div`
 text-align:center;
 h1{
   text-decoration: underline;
+}
+
+a {
+  button {
+    background-color: goldenrod;
+    height: 3vh;
+    color: white;
+    border-radius: 7px;
+    font-size: 2vw;
+    cursor: pointer;
+    &:hover{
+opacity:0.5;
+color:black;
+
+    }
+  }
 }
 
 `

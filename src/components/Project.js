@@ -10,12 +10,18 @@ export default class Project extends Component {
           <img src={project.photo} alt=""/>
         </PhotoContainer>
         <DescriptionContainer>
-          <h3>{project.name}</h3>
+          <h2>{project.name}</h2>
           <hr/>
-          <h2>Tech Stack</h2>
+          <h3>Tech Stack</h3>
           <div>{project.description}</div>
-          <a href={project.link} target="blank">View App</a>
-          <a href={project.github} target="blank">Code Snippet</a>
+          <br/>
+          <a href={project.link} target="blank">
+            <button>View App</button>
+          </a>
+          <br/>
+          <a href={project.github} target="blank">
+            <button>Code Snippet</button>
+          </a>
         </DescriptionContainer>
       </ProjectContainer>
     )
@@ -43,15 +49,27 @@ flex-direction:column;
 justify-content:center;
 align-items:center;
 @media (max-width: 669px) {
-  
+
   }
 a {
-  color:blue;
-  text-decoration:none;
+button {
+  background-color: goldenrod;
+  color:white;
+    font-size: 17px;
+    width: 6rem;
+    height: 3rem;
+    cursor:pointer;
+&:hover{
+  opacity: 0.5;
+    color: black;
+  
+}
+}
 }
 
-h3 {
+h2 {
   text-align: center;
+  text-decoration:underline;
 }
 
 `

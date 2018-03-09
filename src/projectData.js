@@ -1,6 +1,6 @@
 export default [
 {
-  name:"Project 1: Jeopardy",
+  name:"Jeopardy",
   description:"HTML | CSS | jQuery",
   purpose:'Exposure to the fundamental and of HTML, CCS, JavaSCript, & Jquery',
   github:"https://github.com/DenimCity/Project_1",
@@ -8,7 +8,7 @@ export default [
   photo:"https://i.imgur.com/jGQOKcW.png",
 },
 {
-  name:"Project 2: Fashion Blog",
+  name:"Fashion Blog",
   description:"HTML | CSS | MEN",
   purpose:"Exposure the MEN stack.",
   github:"https://github.com/DenimCity/Project2",
@@ -16,7 +16,7 @@ export default [
   photo:"https://i.imgur.com/C8xUJN4.png"
 },
 {
-  name:"Project 3: ClickedIn ",
+  name:"ClickedIn ",
   description:"| MERN | Redux",
   purpose:"Intro to Api calls and minpulating data fr",
   github:"https://github.com/DenimCity/PROJECT3",
