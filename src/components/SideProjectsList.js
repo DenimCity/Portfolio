@@ -18,7 +18,7 @@ export default class SideProjectsList extends Component {
       })
     return (
       <div>
-        <TitleContainer>
+        <TitleContainer id="sideprojects">
           <h2>Extended Learning Projects</h2>
         </TitleContainer>
         <Grid>

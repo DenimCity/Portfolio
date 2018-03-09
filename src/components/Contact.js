@@ -5,7 +5,7 @@ export default class Contact extends Component {
   render() {
     
     return (
-      <div>
+      <div id="contact">
         <TitleContainer>
           <h2>Contact</h2>
         </TitleContainer>
@@ -19,7 +19,10 @@ export default class Contact extends Component {
             <button>Resume</button>
             </a>
           </div>
-
+          <a href="https://github.com/DenimCity" target="blank"><i class="fab fa-github-square"></i></a>
+        <a href="https://medium.com/@JW_Altidor"target="blank"><i class="fab fa-medium-m"></i></a>
+        <a href="https://twitter.com/JW_Altidor"target="blank"><i class="fab fa-twitter-square"></i></a>
+        <a href="https://www.linkedin.com/in/jeanaltidor" target="blank"><i class="fab fa-linkedin-in"></i></a>  
         </Grid>
       </div>
     )

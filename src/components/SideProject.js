@@ -31,12 +31,16 @@ padding: 3vh 2vh;
 @media (max-width: 669px) {
   display: flex;
   justify-content: center;
+  align-items: self-start;
   flex-direction: column-reverse;
   }
 `
 
 const ImageContainer = styled.div `
 margin:auto;
+@media (max-width:669px){
+
+  }
 img {
   width:400px;
   border-radius:20px;

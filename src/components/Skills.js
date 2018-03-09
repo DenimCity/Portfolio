@@ -15,7 +15,7 @@ export default class Skills extends Component {
 
     return (
       <div>
-        <TitleContainer>
+        <TitleContainer id="experience">
         <h2>Experience</h2>
         </TitleContainer>
       <Wrapper>

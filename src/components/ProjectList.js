@@ -20,7 +20,7 @@ export default class ProjectList extends Component {
       })
     return (
       <div>
-        <TitleContainer>
+        <TitleContainer id="projects">
           <h2>Recent Projects</h2>
         </TitleContainer>
         <Grid>

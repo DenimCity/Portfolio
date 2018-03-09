@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export default class About extends Component {
   render() {
     return (
-      <Container>
+      <Container id="aboutme">
         <Wrapper>
           <Motto>
             “You've gotta dance like there's nobody watching, Love like you'll never be
@@ -46,20 +46,20 @@ text-align:center;
 
 const Motto = styled.p `
 justify-content:center;
-font-size:1.4rem;
+font-size:1.9rem;
 font-family: 'Rouge Script', cursive;
 width:30vw;
 span {
   color:goldenrod;
 }
 
-@media (max-width: 684px) {
+@media (max-width: 669px) {
   display:none;
   }
 `
 
 const AboutMe = styled.p `
-font-family: 'Bilbo Swash Caps', cursive;
+font-family: sans-serif;
 text-align: center; 
 display: flex;
 align-items: center;

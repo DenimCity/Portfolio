@@ -5,7 +5,7 @@ export default class Project extends Component {
   render() {
     const project = this.props
     return (
-      <ProjectContainer>
+      <ProjectContainer >
         <PhotoContainer>
           <img src={project.photo} alt=""/>
         </PhotoContainer>
