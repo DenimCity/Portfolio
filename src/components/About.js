@@ -63,7 +63,7 @@ font-family: sans-serif;
 text-align: center; 
 display: flex;
 align-items: center;
-font-size:2.2rem;
+font-size:2rem;
 @media (max-width: 669px) {
   font-size: 5vw;
     margin: auto;
