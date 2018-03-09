@@ -37,18 +37,23 @@ background-color:#F7F7F7;
 display:flex;
 flex:wrap;
 text-align:center;
-justify-content:center;
+/* justify-content:center; */
+@media (max-width: 800px) {
+  
+  }
+
 `
 
 const Motto = styled.p `
 justify-content:center;
 font-size:1.4rem;
 font-family: 'Rouge Script', cursive;
+width:30vw;
 span {
   color:goldenrod;
 }
 
-@media (max-width: 669px) {
+@media (max-width: 684px) {
   display:none;
   }
 `

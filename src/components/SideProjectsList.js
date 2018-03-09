@@ -1,46 +1,41 @@
-import React, {Component} from 'react';
-import Project from '../components/Project'
+import React, {Component} from 'react'
 import styled from 'styled-components'
 import {TitleContainer} from '../styled_components/basicstyles'
-
-export default class ProjectList extends Component {
+import SideProject from './SideProject'
+export default class SideProjectsList extends Component {
   render() {
-    const projectList = this
+    const sideProjectList = this
       .props
-      .projects
+      .sideProjects
       .map((project, i) => {
-        return (<Project
+        return (<SideProject
           key={i}
           name={project.name}
           description={project.description}
-          purpose={project.purpose}
-          github={project.github}
-          photo={project.photo}
+          author={project.author}
+          photo={project.picture}
           link={project.link}/>)
       })
     return (
       <div>
         <TitleContainer>
-          <h2>Recent Projects</h2>
+          <h2>Extended Learning Projects</h2>
         </TitleContainer>
         <Grid>
-          {projectList}
+          {sideProjectList}
         </Grid>
       </div>
     )
   }
 }
-
 const Grid = styled.div `
-display:flex;
-flex-wrap:wrap;
-/* grid-template-columns:54% 37%; */
-justify-content:center;
+display:grid;
+grid-template-columns: 49% 46%;
+justify-content: center;
+align-items: normal;
 @media (max-width: 669px) {
   display: flex;
   justify-content: center;
-  flex-direction: column-reverse;
+  flex-direction: column;
   }
 `
-
-

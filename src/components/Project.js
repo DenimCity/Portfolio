@@ -10,9 +10,9 @@ export default class Project extends Component {
           <img src={project.photo} alt=""/>
         </PhotoContainer>
         <DescriptionContainer>
-          <div>{project.name}</div>
+          <h3>{project.name}</h3>
           <hr/>
-          <h4>Dependencies Used</h4>
+          <h2>Tech Stack</h2>
           <div>{project.description}</div>
           <a href={project.link} target="blank">View App</a>
           <a href={project.github} target="blank">Code Snippet</a>
@@ -24,7 +24,7 @@ export default class Project extends Component {
 
 const ProjectContainer = styled.div `
 display:grid;
-grid-template-columns:auto auto;
+grid-template-columns:50% auto;
 
 `
 const PhotoContainer = styled.div `
