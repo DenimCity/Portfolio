@@ -5,10 +5,10 @@ export default class NavBar extends Component {
   render() {
     return (
       <Wrapper id="top">
-      <a href="#aboutme">About Me</a>
-      <a href="#projects">Projects</a>
-      <a href="#experience">Languages</a>
-      <a href="#sideprojects">Side Projects</a>
+      <a href="#aboutme">About Me </a> 
+      <a href="#projects">Projects </a> 
+      <a href="#experience">Languages</a> 
+      <a href="#sideprojects">Side Projects</a> 
       <a href="#contact">Contact</a>
       </Wrapper>
     )
@@ -27,7 +27,7 @@ align-items:center;
 a {
   color:grey;
   text-decoration:none;
-  font-size:2.5rem;
+  font-size:2.5vh;
   text-align:center;
   @media (max-width: 669px) {
     font-size: 26px;
