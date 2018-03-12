@@ -20,7 +20,7 @@ export default [
   description:"| MERN | Redux",
   purpose:"Intro to Api calls and minpulating data fr",
   github:"https://github.com/DenimCity/PROJECT3",
-  link:"https://photographerplayground.herokuapp.com/",
+  link:"https://young-tundra-14638.herokuapp.com/",
   photo:"https://i.imgur.com/Z18QipR.png"
 },
 {
