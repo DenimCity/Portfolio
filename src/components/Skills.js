@@ -27,9 +27,9 @@ export default class Skills extends Component {
 }
 
 const ImageContainer = styled.div`
-max-width:150px;
+width:10vw;
 @media (max-width: 669px) {
-  width:100px;
+  width:19vw;
   }
 img {
   width:100%;

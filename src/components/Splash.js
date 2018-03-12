@@ -17,7 +17,7 @@ background:url('https://i.imgur.com/qaOjfN9.jpg');
 background-position: center;
 background-size: cover;
 height: 60vh;
-font-size: 6rem;
+font-size: 6vh;
 color: white;
 font-family: 'Marck Script', cursive;
 text-shadow: 1px 2px 2px #000;
