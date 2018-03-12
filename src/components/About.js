@@ -14,9 +14,8 @@ export default class About extends Component {
         </Wrapper>
         <Wrapper>
           <AboutMe>
-            Greetings, I'm health professional that has transitioned into a software
-            developer. I'm a South Floridian living in the beautiful Atlanta, Georgia. My
-            hobbies are photography, blogging, outdoor sport activites, and traveling.
+            Greetings, I am a health professional that has transitioned into a software
+            developer. With my photographer mindset, i'm driven by creating applications that catch the users eye and resolve real world problems.
           </AboutMe>
         </Wrapper>
         <Wrapper>
@@ -46,7 +45,7 @@ text-align:center;
 
 const Motto = styled.p `
 justify-content:center;
-font-size:1.9rem;
+font-size:1.5vw;
 font-family: 'Rouge Script', cursive;
 width:30vw;
 span {
@@ -63,7 +62,7 @@ font-family: sans-serif;
 text-align: center; 
 display: flex;
 align-items: center;
-font-size:2rem;
+font-size:1.9vw;
 @media (max-width: 669px) {
   font-size: 5vw;
     margin: auto;
