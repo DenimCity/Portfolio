@@ -11,16 +11,16 @@ export default class Project extends Component {
         </PhotoContainer>
         <DescriptionContainer>
           <h2>{project.name}</h2>
-        
+
           <h3>Tech Stack</h3>
           <div>{project.description}</div>
           <br/>
           <a href={project.link} target="blank">
-            <button>View App</button>
+            View App
           </a>
           <br/>
           <a href={project.github} target="blank">
-            <button>Code Snippet</button>
+            Code Snippet
           </a>
         </DescriptionContainer>
       </ProjectContainer>
@@ -34,7 +34,7 @@ grid-template-columns:50% auto;
 
 `
 const PhotoContainer = styled.div `
-max-width:150px;
+max-width:15vw;
 img {
   width:100%;
   height:100%;
@@ -53,19 +53,7 @@ const DescriptionContainer = styled.div `
 
   }
 a {
-button {
-  background-color: goldenrod;
-  color:white;
-    font-size: 17px;
-    width: 6rem;
-    height: 3rem;
-    cursor:pointer;
-&:hover{
-  opacity: 0.5;
-    color: black;
-  
-}
-}
+
 }
 
 h2 {
