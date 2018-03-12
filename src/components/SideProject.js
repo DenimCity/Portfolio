@@ -4,22 +4,25 @@ export default class SideProject extends Component {
   render() {
     const project = this.props
     return (
-      <Container>
-        <br/>
-        <ImageContainer>
-          <img width="400" src={project.photo} alt=""/>
-        </ImageContainer>
-        <DescriptionContainer>
+      <div>
+        <Title>
           <h1>{project.name}</h1>
-          <h3>Description</h3>
-          <h3>{project.description}</h3>
-          <h3>By: {project.author}</h3>
-          <a href={project.link} target="blank">
-          <button>Let's Play</button>
+        </Title>
+        <Container>
           <br/>
-          </a>
-        </DescriptionContainer>
-      </Container>
+          <ImageContainer>
+            <img width="400" src={project.photo} alt=""/>
+          </ImageContainer>
+          <DescriptionContainer>
+            <h3>{project.description}</h3>
+            <h3>By: {project.author}</h3>
+            <a href={project.link} target="blank">
+              Let's Play
+              <br/>
+            </a>
+          </DescriptionContainer>
+        </Container>
+      </div>
     )
   }
 }
@@ -38,21 +41,24 @@ padding: 3vh 2vh;
 
 const ImageContainer = styled.div `
 margin:auto;
+width:22vw;
 @media (max-width:669px){
-
+width:60vw;
   }
 img {
-  width:400px;
+  width:100%;
   border-radius:20px;
-  @media (max-width:669px){
-width:300px;
-  }
+
 }
 
 `
 
-const DescriptionContainer = styled.div`
-text-align:center;
+const DescriptionContainer = styled.div `
+
+display:flex;
+justify-content:center;
+flex-direction:column;
+margin-bottom: 6vh;
 h1{
   text-decoration: underline;
 }
@@ -70,6 +76,17 @@ a {
       color:black;
 
     }
+  }
+}
+
+`
+const Title = styled.div `
+display:flex;
+justify-content:center;
+h1 {
+  font-size: 2vh;
+  @media (max-width:669px){
+font-size:2rem;
   }
 }
 
