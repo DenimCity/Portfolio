@@ -16,25 +16,31 @@ export default class Contact extends Component {
           <h2>Contact</h2>
         </TitleContainer>
         <Grid>
-            <a href="mailto:jeanwaltidor@gmail.com"><img src={EnvelopeIcon} alt=""/></a>
-            <a href="https://github.com/DenimCity" target="blank">
-             <img src={GitHubIcon} alt=""/>
-            </a>
-            <a href="https://medium.com/@JW_Altidor" target="blank">
-              <img src={Medium} alt=""/>
-            </a>
-            <a href="https://twitter.com/JW_Altidor" target="blank">
-              <img src={TwitterIcon} alt=""/>
-            </a>
-            <a href="https://www.linkedin.com/in/jeanaltidor" target="blank">
-              <img src={LinkedIn} alt=""/>
-            </a>
+          <a href="mailto:jeanwaltidor@gmail.com"><img src={EnvelopeIcon} alt=""/></a>
+          <a href="https://github.com/DenimCity" target="blank">
+            <img src={GitHubIcon} alt=""/>
+          </a>
+          <a href="https://medium.com/@JW_Altidor" target="blank">
+            <img src={Medium} alt=""/>
+          </a>
+          <a href="https://twitter.com/JW_Altidor" target="blank">
+            <img src={TwitterIcon} alt=""/>
+          </a>
+          <a href="https://www.linkedin.com/in/jeanaltidor" target="blank">
+            <img src={LinkedIn} alt=""/>
+          </a>
         </Grid>
         <ArrowContainer>
-
+          <div>
             <a href="#top"><img src={UpArrow} alt=""/></a>
-        </ArrowContainer>
+          </div>
+
          
+            <p>TOP</p>
+          
+
+        </ArrowContainer>
+
       </ContactContainer>
     )
   }
@@ -60,13 +66,15 @@ a {
 }
 
 `
-const ContactContainer = styled.div`
+const ContactContainer = styled.div `
 background-color:white;
 `
 
-const ArrowContainer = styled.div`
+const ArrowContainer = styled.div `
 display:flex;
 justify-content:center;
+flex-direction:column;
+align-items: center;
 a {
   img{
     width:7vw;
@@ -75,4 +83,4 @@ a {
   }
   }
 }
-` 
+`

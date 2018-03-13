@@ -14,8 +14,9 @@ export default class About extends Component {
         </Wrapper>
         <Wrapper>
           <AboutMe>
-            Greetings, I am a health professional that has transitioned into a software
-            developer. With my photographer mindset, i'm driven by creating applications that catch the users eye and resolve real world problems.
+          Greetings, I am Jean W. Altidor, a software developer with a background in healthcare and photography. 
+          I have cultivated my skillsets from healthcare, photography, and application development into having a 
+          keen eye for detail that brings the ideas of a client to fruition
           </AboutMe>
         </Wrapper>
         <Wrapper>
@@ -62,7 +63,7 @@ font-family: sans-serif;
 text-align: center; 
 display: flex;
 align-items: center;
-font-size:1.9vw;
+font-size:1.7vw;
 @media (max-width: 669px) {
   font-size: 5vw;
     margin: auto;

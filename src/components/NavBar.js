@@ -8,7 +8,7 @@ export default class NavBar extends Component {
       <a href="#aboutme">About Me </a> 
       <a href="#projects">Projects </a> 
       <a href="#experience">Languages</a> 
-      <a href="#sideprojects">Side Projects</a> 
+      <a href="#sideprojects">Learning Projects</a> 
       <a href="#contact">Contact</a>
       </Wrapper>
     )
