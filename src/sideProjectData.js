@@ -14,7 +14,7 @@ export default [
     link:"http://stoic-khorana-dd1f6f.bitballoon.com/"
   },
   {
-    name:"Flex Panel",
+    name:"Flex Window Panels",
     description:"Reactive Image Flex Panel",
     author:"Wes Bos",
     picture:"https://i.imgur.com/zeopICF.jpg",
