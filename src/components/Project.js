@@ -15,11 +15,11 @@ export default class Project extends Component {
           <h3>Tech Stack</h3>
           <div>{project.description}</div>
           <br/>
-          <a href={project.link} target="blank">
+          <a href={project.link} target="_blank">
             View App
           </a>
           <br/>
-          <a href={project.github} target="blank">
+          <a href={project.github} target="_blank">
             Code Snippet
           </a>
         </DescriptionContainer>
