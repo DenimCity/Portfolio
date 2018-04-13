@@ -36,7 +36,7 @@ a {
   }
   :hover{
   color:white;
-  font-size: 2.8rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
     
   }
