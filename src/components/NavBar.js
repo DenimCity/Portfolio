@@ -32,7 +32,6 @@ a {
   @media (max-width: 669px) {
     font-size: 26px;
     color:white;
-   
   }
   :hover{
   color:white;
